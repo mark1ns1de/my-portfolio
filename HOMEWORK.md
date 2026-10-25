@@ -1,8 +1,9 @@
 # Домашнє завдання — Модуль 5: Git і GitHub для безпечного вайб-кодингу
 
-**Студент:** Богдан ([@mark1ns1de](https://github.com/mark1ns1de))
-**Репозиторій:** https://github.com/mark1ns1de/my-portfolio
-**Сайт онлайн:** https://mark1ns1de.github.io/my-portfolio/
+- **Студент:** Богдан ([@mark1ns1de](https://github.com/mark1ns1de))
+- **Репозиторій:** https://github.com/mark1ns1de/my-portfolio
+- **Сайт онлайн:** https://mark1ns1de.github.io/my-portfolio/
+- **Pull Request:** https://github.com/mark1ns1de/my-portfolio/pull/1
 
 ## Короткий опис
 
@@ -61,7 +62,7 @@ Git дозволив мені безпечно експериментувати 
 | 6 | Фінальний коміт і push гілки | `281cca4`, `git push -u origin feature/theme-toggle` |
 | 7 | README | Додано розділи «Нова функціональність» і «Безпека» |
 
-Зміни з гілки влито в `main` через [Pull Request](https://github.com/mark1ns1de/my-portfolio/pulls?q=is%3Apr), гілку `feature/theme-toggle` збережено.
+Зміни з гілки влито в `main` через [Pull Request #1](https://github.com/mark1ns1de/my-portfolio/pull/1), гілку `feature/theme-toggle` збережено.
 
 **Створення гілки**
 
