@@ -44,6 +44,26 @@
                 <li>📍 Україна</li>
             </ul>
         </section>
+
+        <section class="block">
+            <h2>Напишіть мені</h2>
+            <form id="contact-form" class="contact-form" novalidate>
+                <label for="name">Ім'я</label>
+                <input type="text" id="name" name="name" placeholder="Ваше ім'я">
+                <span class="error" id="name-error"></span>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com">
+                <span class="error" id="email-error"></span>
+
+                <label for="message">Повідомлення</label>
+                <textarea id="message" name="message" rows="4" placeholder="Ваше повідомлення"></textarea>
+                <span class="error" id="message-error"></span>
+
+                <button type="submit">Надіслати</button>
+                <p class="form-success" id="form-success"></p>
+            </form>
+        </section>
     </main>
 
     <script src="script.js"></script>

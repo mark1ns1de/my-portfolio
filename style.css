@@ -150,3 +150,69 @@ body.dark .theme-toggle {
     background: #facc15;
     color: #1e293b;
 }
+
+/* ---------- Контактна форма ---------- */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.contact-form label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font: inherit;
+    background: #fff;
+    color: #222;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+}
+
+.contact-form .invalid {
+    border-color: #ef4444;
+}
+
+.contact-form .error {
+    color: #ef4444;
+    font-size: 13px;
+    min-height: 16px;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #3b82f6;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    opacity: 0.9;
+}
+
+.form-success {
+    color: #16a34a;
+    font-weight: 600;
+}
+
+body.dark .contact-form input,
+body.dark .contact-form textarea {
+    background: #0f172a;
+    color: #e2e8f0;
+    border-color: #334155;
+}
