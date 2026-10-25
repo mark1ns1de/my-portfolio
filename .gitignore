@@ -6,3 +6,6 @@
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Залежності Node.js
+node_modules/
