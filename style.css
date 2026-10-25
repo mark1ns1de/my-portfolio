@@ -66,6 +66,21 @@ h1 {
     line-height: 1.6;
 }
 
+.skills {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skills li {
+    background: #e0ecff;
+    color: #1e40af;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 14px;
+}
+
 .contacts {
     list-style: none;
 }
