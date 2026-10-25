@@ -98,3 +98,55 @@ h1 {
 .contacts a:hover {
     color: #3b82f6;
 }
+
+/* ---------- Перемикач теми ---------- */
+body {
+    transition: background 0.3s, color 0.3s;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 999px;
+    background: #3b82f6;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.theme-toggle:hover {
+    opacity: 0.9;
+}
+
+/* ---------- Темна тема ---------- */
+body.dark {
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+body.dark .card {
+    background: #1e293b;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+body.dark .role {
+    color: #94a3b8;
+}
+
+body.dark .skills li {
+    background: #1e3a8a;
+    color: #dbeafe;
+}
+
+body.dark .contacts a {
+    color: #e2e8f0;
+}
+
+body.dark .theme-toggle {
+    background: #facc15;
+    color: #1e293b;
+}
